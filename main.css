@@ -1,0 +1,51 @@
+body { 
+	margin: 0; background: #000;
+}
+video { 
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url('../img/arthas.png') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity;
+}
+div { 
+font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;   
+font-weight: 100; 
+background: rgba(0,0,0,0.3); 
+color: white; 
+padding: 2rem; 
+width: 33%; 
+margin: 2rem; 
+margin-top: 5em;
+float: right; 
+font-size: 1.2rem; 
+border-radius: 5px;
+}
+h1 {
+ font-size: 3rem; text-transform: 
+ uppercase; 
+ margin: 0px; 
+ letter-spacing: .3rem; 
+}
+
+#arthasText button{
+	font-family: arial;
+	background: rgba(0,0,0,.4);
+	border: 0;
+	transition: .6s background;
+	width: 22em;
+	border-radius: 3px;
+}
+#arthasText button:hover{
+	background: rgba(0,0,0,1);
+	transition: .6s background;
+}
+#arthasText button:focus{
+	border: 0px;
+}
